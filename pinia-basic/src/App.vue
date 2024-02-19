@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import {RouterView} from "vue-router";
+import {useMemberStore} from "@/stores/member";
+
+const membersStore = useMemberStore();
 </script>
 
 <template>
